@@ -1,0 +1,3 @@
+table | 1500
+mobile | 79000
+laptop | 12300
