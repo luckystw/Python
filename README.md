@@ -148,10 +148,5 @@ The repository follows a consistent naming format:
 - `task-01`, `task-02`, etc.
 - Files use lowercase kebab-case where applicable.
 
-## 👨‍💻 Author
-
-**Lucky Satyawali**
-
----
 
 ⭐ If you find this repository useful, consider giving it a star!
