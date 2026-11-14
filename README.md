@@ -17,6 +17,7 @@ GEN-AI-Assignments-GitHub/
 ├── assignment-09/   # NumPy fundamentals
 ├── assignment-10/   # Pandas and data analysis
 ├── assignment-11/   # Data visualization with Matplotlib
+├── assignment-12/   # Data visualization with Seaborn
 ├── README.md
 └── .gitignore
 ```
@@ -109,6 +110,17 @@ GEN-AI-Assignments-GitHub/
 - Pie charts
 - Sales data visualization
 
+### Assignment 12 — Data Visualization with Seaborn
+- Task 01: Relational plot
+- Task 02: Line plot as scatter and facet
+- Task 03: Distribution plot
+- Task 04: Bivariate distribution plot
+- Task 05: Matrix plot (pair plot and correlation heatmap)
+- Task 06: Categorical plot
+- Task 07: Regression plot
+- Task 08: Multi- and figure-level plots
+- Dataset: `Housing.csv`
+
 ## 🛠️ Technologies Used
 
 - **Python**
@@ -116,6 +128,7 @@ GEN-AI-Assignments-GitHub/
 - **NumPy**
 - **Pandas**
 - **Matplotlib**
+- **Seaborn**
 
 ## 🚀 How to Run
 
@@ -129,7 +142,7 @@ cd GEN-AI-Assignments-GitHub
 2. Install the required libraries:
 
 ```bash
-pip install jupyter numpy pandas matplotlib
+pip install jupyter numpy pandas matplotlib seaborn
 ```
 
 3. Start Jupyter Notebook:
