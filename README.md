@@ -153,13 +153,5 @@ jupyter notebook
 
 4. Open any `.ipynb` file from the required assignment and run the cells.
 
-## 📌 Naming Convention
-
-The repository follows a consistent naming format:
-
-- `assignment-01`, `assignment-02`, etc.
-- `task-01`, `task-02`, etc.
-- Files use lowercase kebab-case where applicable.
-
 
 ⭐ If you find this repository useful, consider giving it a star!
