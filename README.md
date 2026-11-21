@@ -1,6 +1,6 @@
 # Generative AI Assignments
 
-A structured collection of Python and Generative AI learning assignments completed by **Lucky Satyawali**. The repository is organized assignment-wise and task-wise so that each exercise can be explored independently.
+A structured collection of Python and Generative AI learning assignments. The repository is organized assignment-wise and task-wise so that each exercise can be explored independently.
 
 ## 📁 Repository Structure
 
