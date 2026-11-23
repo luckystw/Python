@@ -1,163 +1,101 @@
 # Generative AI Assignments
 
-A structured collection of Python and Generative AI learning assignments. The repository is organized assignment-wise and task-wise so that each exercise can be explored independently.
+A hands-on collection of Python and data-science exercises, organized by assignment and task. Each assignment is self-contained, so you can work through them in order or jump to any topic.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 GEN-AI-Assignments-GitHub/
-├── assignment-01/   # Python collections and operations
-├── assignment-02/   # Conditional logic and loops
-├── assignment-03/   # Functions and functional programming
+├── assignment-01/   # Python collections
+├── assignment-02/   # Control flow
+├── assignment-03/   # Functions
 ├── assignment-04/   # File handling
 ├── assignment-05/   # Modules and packages
-├── assignment-06/   # Exception handling and validation
-├── assignment-07/   # Object-Oriented Programming
-├── assignment-08/   # Application-based exercises
-├── assignment-09/   # NumPy fundamentals
-├── assignment-10/   # Pandas and data analysis
-├── assignment-11/   # Data visualization with Matplotlib
-├── assignment-12/   # Data visualization with Seaborn
+├── assignment-06/   # Exception handling
+├── assignment-07/   # Object-oriented programming
+├── assignment-08/   # Application exercises
+├── assignment-09/   # NumPy
+├── assignment-10/   # Pandas
+├── assignment-11/   # Matplotlib
+├── assignment-12/   # Seaborn
 ├── README.md
 └── .gitignore
 ```
 
-## 📚 Assignments Overview
+## What's Covered
 
-### Assignment 01 — Python Collections
-- Product collection
-- Categories
-- Product pricing
-- Combined operations
+### Python Foundations
 
-### Assignment 02 — Control Flow
-- Discount rules
-- Processing multiple orders
-- User menu
-- Loop control
+| # | Topic | Exercises |
+|---|-------|-----------|
+| 01 | Collections | Products, categories, pricing, combined operations |
+| 02 | Control Flow | Discount rules, multi-order processing, user menu, loop control |
+| 03 | Functions | Basic, recursive, and lambda functions; `map` and `filter`; utility functions; menu-driven programs |
+| 04 | File Handling | Sales records, reading and appending data, summary reports, safe file reading, exporting discounted prices |
+| 05 | Modules and Packages | Custom modules, utility modules, package imports, billing and discount modules |
+| 06 | Exception Handling | Safe division, bill calculator, age validator, file reader, safe shopping cart |
+| 07 | Object-Oriented Programming | Classes, encapsulation, inheritance, polymorphism, abstraction, magic methods, operator overloading, inventory system |
+| 08 | Applications | Basic app, discount app, product form, dashboard |
 
-### Assignment 03 — Functions
-- Basic functions
-- Recursive functions
-- Lambda functions
-- Map and filter functions
-- Combined utility functions
-- Menu-based programs
+### Data Analysis and Visualization
 
-### Assignment 04 — File Handling
-- Sales records
-- Reading files
-- Appending new sales data
-- Summary reports
-- Product information
-- Safe file reading
-- Exporting discounted prices
+| # | Topic | Exercises |
+|---|-------|-----------|
+| 09 | NumPy | Arrays, math operations, aggregation, statistics, percentiles, sorting, sales analysis |
+| 10 | Pandas | Series, DataFrames, filtering, grouping, plotting, sales data analysis |
+| 11 | Matplotlib | Line, scatter, bar (grouped and stacked), histogram, and pie charts; sales data visualization |
+| 12 | Seaborn | Relational, distribution, matrix, categorical, and regression plots; multi- and figure-level plots (uses `Housing.csv`) |
 
-### Assignment 05 — Modules and Packages
-- Creating and using Python modules
-- Custom utility modules
-- Packages and imports
-- Billing and discount modules
+<details>
+<summary>Assignment 12 task breakdown</summary>
 
-### Assignment 06 — Exception Handling
-- Safe division utility
-- Bill calculator
-- Age validator
-- File reader
-- Safe shopping cart
+- **Task 01:** Relational plot
+- **Task 02:** Line plot as scatter and facet
+- **Task 03:** Distribution plot
+- **Task 04:** Bivariate distribution plot
+- **Task 05:** Matrix plots (pair plot and correlation heatmap)
+- **Task 06:** Categorical plot
+- **Task 07:** Regression plot
+- **Task 08:** Multi- and figure-level plots
 
-### Assignment 07 — Object-Oriented Programming
-- Classes and objects
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Abstraction
-- Magic methods and operator overloading
-- Simple inventory system
+</details>
 
-### Assignment 08 — Application Exercises
-- Basic application
-- Discount application
-- Product form
-- Dashboard application
+## Tech Stack
 
-### Assignment 09 — NumPy
-- NumPy arrays
-- Mathematical operations and formulas
-- Aggregation operations
-- Statistical operations
-- Percentiles and sorting
-- Sales analysis
+Python · Jupyter Notebook · NumPy · Pandas · Matplotlib · Seaborn
 
-### Assignment 10 — Pandas and Data Analysis
-- Pandas basics
-- Mathematical operations
-- Series functionality
-- DataFrames
-- DataFrame functions
-- Filtering and conditional operations
-- Grouping and analysis
-- Plotting
-- Sales data analysis
+## Getting Started
 
-### Assignment 11 — Data Visualization with Matplotlib
-- Line plots
-- Scatter plots
-- Bar plots
-- Multiple bar plots
-- Stacked bar charts
-- Histograms
-- Pie charts
-- Sales data visualization
-
-### Assignment 12 — Data Visualization with Seaborn
-- Task 01: Relational plot
-- Task 02: Line plot as scatter and facet
-- Task 03: Distribution plot
-- Task 04: Bivariate distribution plot
-- Task 05: Matrix plot (pair plot and correlation heatmap)
-- Task 06: Categorical plot
-- Task 07: Regression plot
-- Task 08: Multi- and figure-level plots
-- Dataset: `Housing.csv`
-
-## 🛠️ Technologies Used
-
-- **Python**
-- **Jupyter Notebook**
-- **NumPy**
-- **Pandas**
-- **Matplotlib**
-- **Seaborn**
-
-## 🚀 How to Run
-
-1. Clone the repository:
+**1. Clone the repository**
 
 ```bash
 git clone <your-repository-url>
 cd GEN-AI-Assignments-GitHub
 ```
 
-2. Install the required libraries:
+**2. (Optional) Create a virtual environment**
+
+```bash
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+```
+
+**3. Install dependencies**
 
 ```bash
 pip install jupyter numpy pandas matplotlib seaborn
 ```
 
-3. Start Jupyter Notebook:
+**4. Launch Jupyter**
 
 ```bash
 jupyter notebook
 ```
 
-4. Open any `.ipynb` file from the required assignment and run the cells.
+Open any `.ipynb` file from an assignment folder and run the cells in order.
 
+## Naming Conventions
 
-## 📌 Naming Convention
-
-The repository follows a consistent naming format:
-
-- `assignment-01`, `assignment-02`, etc.
-- `task-01`, `task-02`, etc.
-- Files use lowercase kebab-case where applicable.
+- Folders: `assignment-01`, `assignment-02`, …
+- Tasks: `task-01`, `task-02`, …
+- Files: lowercase kebab-case (e.g. `sales-analysis.ipynb`)
