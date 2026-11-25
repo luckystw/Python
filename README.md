@@ -18,6 +18,7 @@ GEN-AI-Assignments-GitHub/
 ├── assignment-10/   # Pandas
 ├── assignment-11/   # Matplotlib
 ├── assignment-12/   # Seaborn
+├── assignment-13/   # End-to-end data analysis workflow
 ├── README.md
 └── .gitignore
 ```
@@ -45,6 +46,7 @@ GEN-AI-Assignments-GitHub/
 | 10 | Pandas | Series, DataFrames, filtering, grouping, plotting, sales data analysis |
 | 11 | Matplotlib | Line, scatter, bar (grouped and stacked), histogram, and pie charts; sales data visualization |
 | 12 | Seaborn | Relational, distribution, matrix, categorical, and regression plots; multi- and figure-level plots (uses `Housing.csv`) |
+| 13 | Data Analysis Workflow | Loading data from CSV, JSON, SQL, and the TMDB API; cleaning, feature preparation, univariate and bivariate analysis, insights (uses `supermarket_sales.csv`) |
 
 <details>
 <summary>Assignment 12 task breakdown</summary>
@@ -60,9 +62,25 @@ GEN-AI-Assignments-GitHub/
 
 </details>
 
+<details>
+<summary>Assignment 13 task breakdown</summary>
+
+- **Task 01:** Load data from a CSV file
+- **Task 02:** Load data from a JSON file
+- **Task 03:** Query data from a SQL (SQLite) database
+- **Task 04:** Collect movie data from the TMDB API and export to CSV
+- **Task 05:** Understand the data (structure, types, dimensions, missing values)
+- **Task 06:** Data cleaning
+- **Task 07:** Feature preparation (encoding and formatting)
+- **Task 08:** Univariate analysis
+- **Task 09:** Bivariate analysis
+- **Task 10:** Insights and observations
+
+</details>
+
 ## Tech Stack
 
-Python · Jupyter Notebook · NumPy · Pandas · Matplotlib · Seaborn
+Python · Jupyter Notebook · NumPy · Pandas · Matplotlib · Seaborn · Requests · scikit-learn · SQLite
 
 ## Getting Started
 
@@ -83,7 +101,7 @@ source venv/bin/activate      # On Windows: venv\Scripts\activate
 **3. Install dependencies**
 
 ```bash
-pip install jupyter numpy pandas matplotlib seaborn
+pip install jupyter numpy pandas matplotlib seaborn requests scikit-learn
 ```
 
 **4. Launch Jupyter**
@@ -93,6 +111,8 @@ jupyter notebook
 ```
 
 Open any `.ipynb` file from an assignment folder and run the cells in order.
+
+> **Note:** Assignment 13, Task 04 calls the TMDB API. Set your own key as an environment variable (`TMDB_API_KEY`) instead of hard-coding it in the notebook.
 
 ## Naming Conventions
 
